@@ -12,7 +12,7 @@ serverSocket.listen(1)
 
 while True:
     # Estabelece a conexão
-    print('Ready to serve...')
+    print('Ready to serve in http://127.0.0.1:6789/HelloWorld.html')
     connectionSocket, addr = serverSocket.accept()
     try:
         # Recebe a mensagem do cliente (requisição HTTP)
