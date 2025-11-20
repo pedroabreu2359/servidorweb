@@ -6,3 +6,6 @@ Servidor em funcionamento no terminal:
 
 Arquivo HTML aberto no navegador a partir do servidor:
 <img width="960" height="379" alt="Arquivo aberto a partir do servidor" src="https://github.com/user-attachments/assets/f1a302ca-5ff6-47bd-9984-1af052e19b85" />
+
+Erro 404 caso não encontre o arquivo:
+<img width="961" height="362" alt="image" src="https://github.com/user-attachments/assets/c84236ed-d0e7-4c20-8a1d-46cfad74fd56" />
