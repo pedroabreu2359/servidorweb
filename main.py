@@ -17,6 +17,12 @@ while True:
     try:
         # Recebe a mensagem do cliente (requisição HTTP)
         message = connectionSocket.recv(1024).decode()
+
+        # Verifica se a mensagem está vazia
+        if not message:
+            connectionSocket.close()
+            continue
+
         filename = message.split()[1]
         f = open(filename[1:])
         outputdata = f.read()
